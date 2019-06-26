@@ -1,0 +1,11 @@
+pool:
+  vmImage: 'ubuntu-19.04'
+
+steps:
+- script: go test -v ./...
+  workingDirectory: '$(modulePath)'
+  displayName: 'Run tests'
+
+- script: go build -v .
+  workingDirectory: '$(modulePath)'
+  displayName: 'Build'  
