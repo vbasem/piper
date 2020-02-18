@@ -3,7 +3,7 @@
 dang it , github takes over the other readme
 i am going to delete it
 
-i havent done it yet
+i will do it soon!
 
 
 yaml spacing isnt easy yet
