@@ -6,7 +6,7 @@ import "github.com/fatih/color"
 
 
 func main() {
-	println("hello")
+	println("Hello")
 	GetConsole("blue")("Prints text in blue.")
 
 }
