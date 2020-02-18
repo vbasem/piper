@@ -1,9 +1,0 @@
-# pool:
-#   vmImage: 'ubuntu-16.04'
-
-# steps:
-# - script: go test -v ./...
-#   displayName: 'Run tests'
-
-# - script: go build -v .
-#   displayName: 'Build'  
