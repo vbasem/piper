@@ -12,7 +12,6 @@ func main() {
 }
 
 
-
 func GetConsole(c string) func(string, ...interface {}) {
 
 	if c == "blue" {
