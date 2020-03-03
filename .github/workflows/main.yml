@@ -2,7 +2,10 @@ name: CI
 
 on:
   issues:
-    types: [opened]
+    types: [opened,]
+  push:
+    branches:
+    - master    
 
 
 jobs:
