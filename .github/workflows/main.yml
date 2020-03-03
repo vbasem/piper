@@ -12,5 +12,5 @@ jobs:
     - uses: vbasem/first-interaction@master
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: '# Message with markdown.\nThis is the message that will be displayed on users first issue.'
-        pr-message: 'Message that will be displayed on users first pr. Look, a `code block` for markdown.'
+        issue-message: "I do this for my own and no one else is responsible for my crap."
+        pr-message: "My PRs are my own crap as well, so I am adding this to reemphisize it!"
