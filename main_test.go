@@ -9,7 +9,6 @@ import (
 )
 
 
-
 func TestGetConsole_blue(t *testing.T) {
 
 	sf1 := reflect.ValueOf(color.Blue)
